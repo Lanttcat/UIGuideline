@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    images-upload::part(test) {
+      /*custom style for web component*/
+    }
+  </style>
+</head>
+<body>
+  <images-upload uploadImage="onTest()"></images-upload>
+  <script type="module" src="./ImagesUpload/imagesUpload.js"></script>
+
+  <script>
+    function onTest() {
+      console.log(111);
+    }
+  </script>
+</body>
+</html>
